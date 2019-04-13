@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding=UTF-8
 '''
-@Description: 读取图片文件 
+@Description: 读取图片文件，并保存。
 @Author: Joe
 @Verdion: 1.0
 '''
@@ -50,6 +50,7 @@ np.save('./data/input_dog_' + 'valid_files' + '.npy', valid_files)
 np.save('./data/input_dog_' + 'valid_targets' + '.npy', valid_targets)
 np.save('./data/input_dog_' + 'test_files' + '.npy', test_files)
 np.save('./data/input_dog_' + 'test_targets' + '.npy', test_targets)
+np.save('./data/dog_names.npy', dog_names)
 
 # load and save human image files
 PATH_HUMAN = os.path.join(DIR_ROOT, 'data/lfw')

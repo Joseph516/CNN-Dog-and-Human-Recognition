@@ -10,6 +10,8 @@
 *.sln.docstates
 data/*
 *.h5
+*/dog_detector/*
+*.npz
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
